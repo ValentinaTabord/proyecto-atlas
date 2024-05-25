@@ -1,0 +1,462 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  background-image: url(images/banner-bk.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.header-1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 8rem 1rem;
+  color: aliceblue;
+  align-items: center;
+}
+
+.header-1 img {
+  max-width: 7rem;
+  padding: 0.5rem;
+}
+
+.banner {
+  border: 0px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: center;
+  padding: 5rem;
+  text-align: left;
+}
+
+.banner a {
+  display: inline-block;
+  margin-top: 3rem;
+  padding: 1rem;
+  background-color: aquamarine;
+  color: black;
+  text-decoration: none;
+  border-radius: 1.5rem;
+  transition: background-color purple 0.3s;
+}
+
+.banner p {
+  font-size: 1rem;
+  color: white;
+  margin: 10px;
+}
+
+.banner h2 {
+  font-size: 5rem;
+}
+
+.containermain {
+  padding: 20px;
+}
+
+.section-content {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.section-content h2 {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.section-content img {
+  display: block;
+  margin: 0 auto 10px;
+  width: 10rem;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  max-width: 20rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card h3 {
+  max-width: 20rem;
+  padding: 2rem;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.card p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.section-content-2 {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  padding: 20px;
+  background: linear-gradient(to bottom right, white 50%, #00ffb3 40%);
+  height: 50%;
+  overflow: hidden;
+}
+
+.items {
+  border: 0px solid #ddd; /*para ver el borde donde estoy trabajando*/
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: center;
+}
+
+.items h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.items p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.items img {
+  display: block;
+  margin: 0 auto 10px;
+  width: 10rem;
+}
+
+.items a {
+  display: inline-block;
+  margin-top: 3rem;
+  padding: 1rem 1rem;
+  background-color: rgb(9, 14, 66);
+  color: white;
+  text-decoration: none;
+  border-radius: 1.5rem;
+  transition: background-color purple 0, 3s;
+}
+
+.section-content-3 {
+  border: 0px solid #ddd;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  background: linear-gradient(to bottom right, #00ffb3 50%, #00ffb3 50%);
+  height: 50%;
+  position: relative;
+  overflow: hidden;
+}
+
+.item-container {
+  border: 0px solid #ddd; /*para ver el borde donde estoy trabajando*/
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: center;
+}
+
+.item-container h2 {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.item-container p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.item-container a {
+  display: inline-block;
+  margin-top: 3rem;
+  padding: 1rem 1rem;
+  background-color: rgb(9, 14, 66);
+  color: white;
+  text-decoration: none;
+  border-radius: 1.5rem;
+  transition: background-color 0, 3s;
+}
+
+.container-img {
+  border: 0px solid #ddd; /*para ver el borde donde estoy trabajando*/
+  display: flex;
+  height: auto;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: center;
+}
+
+.pricing-section {
+  background-color: white;
+  color: black;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.pricing-section h2 {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.pricing-container {
+  border: 0px solid #ddd;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.pricing-card {
+  background-color: white;
+  padding: 5rem;
+  max-width: 300px;
+  text-align: center;
+}
+
+.pricing-card h3 {
+  font-size: 1.5em;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.pricing-card p {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.pricing-card ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.pricing-card li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  color: #666;
+}
+
+.pricing-card-button {
+  display: center;
+  width: 60%;
+  padding: 1rem;
+  background-color: white;
+  color: black;
+  text-align: center;
+  border: solid 1px;
+  border-radius: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.pricing-card-1 {
+  color: white;
+  background-color: rgb(9, 14, 66);
+  padding: 5rem;
+  max-width: 300px;
+  text-align: center;
+}
+
+.pricing-card-1 h3 {
+  font-size: 1.5em;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.pricing-card-1 p {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.pricing-card-1 ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.pricing-card-1 li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  color: white;
+}
+
+.pricing-card-button_1 {
+  display: center;
+  width: 60%;
+  padding: 1rem;
+  background-color: aquamarine;
+  color: black;
+  text-align: center;
+  border: solid 1px;
+  border-radius: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.section-content-4 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+  background-color: gainsboro;
+  padding: 1.5rem;
+}
+
+.section-content-4 img {
+  width: 8rem;
+  height: auto;
+}
+
+.container-footer {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  background-color: rgb(9, 14, 66);
+  padding: 20px;
+}
+
+.contact {
+  background-image: url(images/contact-bk.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+
+  display: flex;
+  justify-content: space-between;
+  padding: 8rem 8rem 8rem;
+}
+
+.footer1 h2 {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.lorem {
+  display: flex;
+  justify-content: space-around;
+  margin: 5rem;
+  gap: 5rem;
+}
+
+.Lorem p {
+  font-size: 1rem;
+  color: white;
+}
+
+.Lorem2 p {
+  font-size: 1rem;
+  color: white;
+}
+
+.footer h2 {
+  padding: 0rem 0rem 1rem;
+}
+
+.footer1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 8rem 8rem 8rem;
+  background-image: url(images/contact-bk.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+.Data1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 0rem 0rem 0rem;
+}
+
+.name {
+  padding: 0rem 1rem 1rem;
+  color: #00ffad;
+}
+
+.footer input {
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  background: transparent;
+  border-color: #00ffad;
+}
+
+.Email {
+  padding: 0rem 1rem 1rem;
+  color: #00ffad;
+}
+
+.Message {
+  padding: 0rem 1rem 1rem;
+  width: 100%;
+  color: #00ffad;
+}
+
+.Message textarea {
+  background: transparent;
+  border-radius: 0.3rem;
+  padding: 0.5rem;
+  width: 100%;
+  border-color: #00ffad;
+}
+
+.ultimatefooter {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 8rem 2rem;
+  background-color: #192440;
+  color: #fff;
+}
+
+.ultimatefooter a {
+  background-color: #fff;
+  border-radius: 1rem;
+  font-size: 1.5rem;
+}
+
+.Message button {
+  width: 100%;
+  background-color: #00ffad;
+  border-radius: 2rem;
+  color: black;
+  padding: 0.5rem;
+}
+
+.submit-button {
+  padding: 15px;
+  border: none;
+  border-radius: 25px;
+  background-color: #eeeeee;
+  color: #000;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #c8ff00;
+}
+
+.social a {
+  color: white;
+  margin: 0 10px;
+  text-shadow: 1px 4px 4px black;
+}
